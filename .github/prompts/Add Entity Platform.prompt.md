@@ -29,7 +29,7 @@ If not provided, ask for:
 ### 2. Platform `__init__.py` Template
 
 ```python
-"""[Platform] platform for Integration Blueprint."""
+"""[Platform] platform for NordPool All-In."""
 
 from __future__ import annotations
 
@@ -65,7 +65,7 @@ async def async_setup_entry(
 ### 3. Entity Implementation Template
 
 ```python
-"""[Entity description] for Integration Blueprint."""
+"""[Entity description] for NordPool All-In."""
 
 from __future__ import annotations
 

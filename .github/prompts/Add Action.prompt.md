@@ -166,7 +166,7 @@ This allows translating the option labels via `selector.[translation_key].option
 Create `custom_components/ha_integration_domain/service_actions/[action_name].py`:
 
 ```python
-"""[Action name] service action for Integration Blueprint."""
+"""[Action name] service action for NordPool All-In."""
 
 from __future__ import annotations
 

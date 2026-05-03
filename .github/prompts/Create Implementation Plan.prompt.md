@@ -130,7 +130,7 @@ Break down into logical phases (typically 3-5):
 **Integration-specific considerations:**
 
 - Domain: `ha_integration_domain`
-- Title: Integration Blueprint
+- Title: NordPool All-In
 - Class prefix: `IntegrationBlueprint`
 - Follow patterns in `AGENTS.md` and path-specific `.instructions.md`
 

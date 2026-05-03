@@ -7,7 +7,7 @@
 ## Project Identity
 
 - **Domain:** `ha_integration_domain`
-- **Title:** Integration Blueprint
+- **Title:** NordPool All-In
 - **Class prefix:** `IntegrationBlueprint`
 - **Main code:** `custom_components/ha_integration_domain/`
 - **Validate:** `script/check` (type-check + lint-check + spell-check)

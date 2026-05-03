@@ -1,7 +1,7 @@
 # Examples
 
 This page provides ready-to-use examples for automations, dashboards, and blueprints
-with the Integration Blueprint custom integration.
+with the NordPool All-In custom integration.
 
 Replace entity IDs like `sensor.device_name_*` with your actual entity IDs after
 setting up the integration.
@@ -65,7 +65,7 @@ Save this as a blueprint file and import it in Home Assistant:
 
 ```yaml
 blueprint:
-  name: Integration Blueprint — Threshold Alert
+  name: NordPool All-In — Threshold Alert
   description: Send a notification when a sensor exceeds a configurable threshold.
   domain: automation
   input:
@@ -160,4 +160,4 @@ hours_to_show: 24
 
 - [Configuration Reference](./CONFIGURATION.md) - All configuration options
 - [Getting Started](./GETTING_STARTED.md) - Installation and initial setup
-- [GitHub Issues](https://github.com/jpawlowski/hacs.integration_blueprint/issues) - Report problems
+- [GitHub Issues](https://github.com/ksjoberg/nordpool_allin/issues) - Report problems

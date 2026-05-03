@@ -320,7 +320,7 @@ PROMPT_HEADER
 
 ## Context
 
-This is a Home Assistant custom integration called 'Integration Blueprint'.
+This is a Home Assistant custom integration called 'NordPool All-In'.
 Domain: $DOMAIN
 Current version: $CURRENT_VERSION
 

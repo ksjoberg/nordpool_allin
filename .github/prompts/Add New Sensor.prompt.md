@@ -48,7 +48,7 @@ If not provided, ask for:
 **Entity Template:**
 
 ```python
-"""[Sensor description] for Integration Blueprint."""
+"""[Sensor description] for NordPool All-In."""
 
 from __future__ import annotations
 

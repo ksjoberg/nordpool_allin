@@ -17,13 +17,13 @@ This schema combines Home Assistant's official manifest requirements with HACS-s
 ```json
 {
   "domain": "ha_integration_domain",
-  "name": "Integration Blueprint",
-  "codeowners": ["@jpawlowski"],
+  "name": "NordPool All-In",
+  "codeowners": ["@ksjoberg"],
   "config_flow": true,
-  "documentation": "https://github.com/jpawlowski/hacs.integration_blueprint",
+  "documentation": "https://github.com/ksjoberg/nordpool_allin",
   "integration_type": "device",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/jpawlowski/hacs.integration_blueprint/issues",
+  "issue_tracker": "https://github.com/ksjoberg/nordpool_allin/issues",
   "requirements": [],
   "version": "0.0.0"
 }
@@ -82,7 +82,7 @@ GitHub usernames with `@` prefix:
 
 ```json
 "codeowners": [
-  "@jpawlowski"
+  "@ksjoberg"
 ]
 ```
 

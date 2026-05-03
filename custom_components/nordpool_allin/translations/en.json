@@ -1,0 +1,77 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Configure NordPool all-in price calculation. See the [documentation]({documentation_url}) for help.",
+        "data": {
+          "nordpool_entity_id": "NordPool sensor entity",
+          "import_formula": "Import price formula",
+          "export_formula": "Export price formula"
+        },
+        "data_description": {
+          "nordpool_entity_id": "Select the NordPool sensor that provides hourly spot prices.",
+          "import_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number.",
+          "export_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number."
+        }
+      },
+      "reconfigure": {
+        "description": "Update the NordPool entity or price formulas.",
+        "data": {
+          "nordpool_entity_id": "NordPool sensor entity",
+          "import_formula": "Import price formula",
+          "export_formula": "Export price formula"
+        },
+        "data_description": {
+          "nordpool_entity_id": "Select the NordPool sensor that provides hourly spot prices.",
+          "import_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number.",
+          "export_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number."
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "The selected entity does not exist. Make sure the NordPool integration is configured.",
+      "entity_unavailable": "The selected entity is currently unavailable. Try again when it comes online.",
+      "entity_invalid": "The selected entity does not contain NordPool price data (expected raw_today or prices_today attribute).",
+      "formula_invalid": "One or more formulas are invalid or do not evaluate to a number.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This NordPool entity is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Update the import and export price formulas.",
+        "data": {
+          "import_formula": "Import price formula",
+          "export_formula": "Export price formula"
+        },
+        "data_description": {
+          "import_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number.",
+          "export_formula": "Jinja2 template. Available variables: `price` (spot price as float) and `datetime` (slot start as datetime object). Must evaluate to a number."
+        }
+      }
+    },
+    "error": {
+      "entity_unavailable": "The NordPool entity is currently unavailable. Try again when it comes online.",
+      "formula_invalid": "One or more formulas are invalid or do not evaluate to a number.",
+      "unknown": "An unexpected error occurred."
+    }
+  },
+  "exceptions": {
+    "update_failed": {
+      "message": "Failed to read NordPool price data."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "import_price": {
+        "name": "Import Price"
+      },
+      "export_price": {
+        "name": "Export Price"
+      }
+    }
+  }
+}

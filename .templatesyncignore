@@ -1,7 +1,7 @@
 # Template Sync Ignore File
 # ============================================================
 # Files and folders listed here will NOT be synced from the
-# upstream template (jpawlowski/hacs.integration_blueprint).
+# upstream template (ksjoberg/nordpool_allin).
 #
 # Syntax follows .gitignore glob patterns.
 # See: https://github.com/AndreasAugustin/actions-template-sync
@@ -49,7 +49,7 @@ DEPENDENCIES.md
 
 # ── AI agent instruction files ───────────────────────────────
 # These contain domain-specific references (ha_integration_domain,
-# Integration Blueprint, etc.) that were replaced during init.
+# NordPool All-In, etc.) that were replaced during init.
 # Maintain these yourself to reflect your integration's patterns.
 AGENTS.md
 CLAUDE.md
